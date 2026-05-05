@@ -1,0 +1,96 @@
+
+  body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .option {
+      display: block;
+      margin: 10px;
+      padding: 10px;
+      width: 200px;
+      cursor: pointer;
+    }
+    #nextBtn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      display: none;
+    }
+   #options {
+    background: white;
+    padding: 25px;
+  }
+.title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  color: #2196F3;
+  font-weight: bold;
+}
+#nextBtn {
+  margin-top: 10px;
+  display: none;
+padding: 6px 12px;
+  cursor: pointer;
+ display: block;        
+  margin-left: auto;     
+  margin-right: auto;    
+}
+.container {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+ background: white;
+ border-top: 5px white;
+  border-bottom: 5px white;
+  border-left: 5px white;
+  border-right: 5px white;
+  border-radius: 20px;
+ box-shadow: 0 0 15px rgba(0,0,0,0.2);
+text-align: center;
+}
+#options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;   
+  gap: 1px;         
+  margin-top: 10px;
+}
+#retakeBtn {
+  margin-top: 10px;
+  padding: 8px 12px;
+
+  display: none;   
+
+  cursor: pointer;
+
+  border: 2px solid blue;
+  background: white;
+  color: blue;
+
+  border-radius: 8px;
+}
+#retakeBtn {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+#nextBtn {
+  background-color: blue;
+  color: white;       
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#nextBtn:hover {
+  background-color: darkblue; 
+}
+#score {
+  color: blue;
+  font-weight: bold;   
+  font-size: 18px;     
+}
